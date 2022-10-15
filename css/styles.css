@@ -1,0 +1,175 @@
+body {
+    font-family: 'Roboto';
+    background-color: #ffffff;
+    color: #212121;
+   }
+li {
+    list-style-type: none;
+  
+    /* Убираем маркеры */
+  }
+  .nav-list a,
+  .list-contakts a
+   {text-decoration: none;}
+
+/* Шапка head */
+.logo {
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+.logo-first {
+    color:#2196F3 ;
+}
+
+.nav-list a,
+.list-contakts a
+ {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    }
+    .list-contakts a{
+        color: #757575;
+    }
+
+  .nav-list a:hover,
+  .list-contakts a:hover,
+  .nav-list a:focus,
+  .list-contakts a:focus
+  {
+    color: #2196F3;
+  }  
+   
+/* унікальний контент сторінки main */
+/* секція замовлення послуг */
+.box-service-order {
+    background-color:#2F303A ;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+.btn-service {
+    background-color:#2196F3 ;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    letter-spacing: 0.06em;
+  
+}
+/* секція щодо переліку деталей */
+.box-detail-list h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+.box-detail-list p
+ {
+    color: #757575; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* секція галереї робіт */
+.box-list-work h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+/* секція щодо команди студії*/
+.box-team {
+    background-color: #F5F4FA;
+}
+.box-team h2
+ {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+.box-team h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.box-team h4 {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+/* підвал сторінки footer */
+.my-footer{
+    background-color:#2F303A ;
+    color:rgba(255, 255, 255, 1) ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;      
+}
+ /* .my-footer a,
+  {
+    color:rgba(255, 255, 255, 1);
+ } */
+.footer-addres {
+    font-style: normal;
+    color:rgba(255, 255, 255, 1);
+}
+.addres-mail,
+.adres-tel{
+    color:rgba(255, 255, 255, 0.6) ;
+    }
+
+/* портфоліо */
+.portfolio-main{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #212121;
+}
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,63;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+background: #2196F3;
+color: #ffffff;
+}
+.portfolio-work h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    /* color: #212121; */
+}
+.portfolio-work p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+}
