@@ -4,7 +4,7 @@
     --accent-color: #2196F3;
 }
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif, system-ui; 
     background-color: var(--primere-background-color);
     color: var(--primary-text-color)
    }
@@ -52,10 +52,13 @@ li {
   }  
    
 /* унікальний контент сторінки main */
+.text {
+    color: #757575;
+    font-size: 16px;
+}
 /* секція замовлення послуг */
 .box-service-order {
 background-color: #2F303A;
-
 }
 .box-service-order h1 {
     color: #ffffff;
@@ -70,30 +73,23 @@ background-color: #2F303A;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-  
-}
-/* секція щодо переліку деталей */
-.box-detail > h2 {
+  }
+/* секція щодо переліку особливостей */
+.box-detail .title {
     color: #FFFFFF;
 }
-.box-detail-list h3{
-    font-weight: 700;
+.subtitle{
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.2;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     }
-.box-detail-list p
- {
-    color: #757575; 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 2;
+.item .text{
+font-size: 14px;
+line-height: 1.8;
 }
 
 /* секція галереї робіт */
 .box-list-work h2 {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
 }
@@ -101,23 +97,19 @@ background-color: #2F303A;
 /* секція щодо команди студії*/
 .box-teams {
     background-color: #F5F4FA;
-    line-height: 1.19;
-}
-.box-teams h2
- {
-    font-weight: 700;
-    font-size: 36px;
     line-height: 1.2;
 }
+.box-teams .title
+ {
+    font-size: 36px;
+}
 
-.box-teams h3{
+.box-teams .subtitle{
     font-size: 16px;
     font-weight: 500;
 }
-.box-teams p {
+.box-teams .text {
     font-size: 16px;
-    font-weight: 400;
-    color: #757575;
 }
 /* підвал сторінки footer */
 .my-footer{
@@ -157,14 +149,12 @@ font-style: normal;
 background: var(--accent-color);
 color: #ffffff;
 }
-.portfolio-work h2{
-    font-weight: 700;
+.portfolio-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.portfolio-work p{
-    font-weight: 400;
+.portfolio-text{
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
