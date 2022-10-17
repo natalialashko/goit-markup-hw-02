@@ -1,7 +1,12 @@
+:root{
+    --primary-text-color: #212121;
+    --primere-background-color: #ffffff;
+    --accent-color: #2196F3;
+}
 body {
     font-family: 'Roboto';
-    background-color: #ffffff;
-    color: #212121;
+    background-color: var(--primere-background-color);
+    color: var(--primary-text-color)
    }
 li {
     list-style-type: none;
@@ -31,7 +36,7 @@ li {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--primary-text-color);
     }
    .address-item a {
         color: #757575;
@@ -43,7 +48,7 @@ li {
   .nav-list a:focus,
   .address-item a:focus
   {
-    color: #2196F3;
+    color: var(--accent-color);
   }  
    
 /* унікальний контент сторінки main */
@@ -59,7 +64,7 @@ background-color: #2F303A;
     line-height: 1.36;
 }
 .btn-service {
-    background-color:#2196F3 ;
+    background-color: var(--accent-color) ;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
@@ -145,10 +150,11 @@ font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,63;
+    cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus{
-background: #2196F3;
+background: var(--accent-color);
 color: #ffffff;
 }
 .portfolio-work h2{
