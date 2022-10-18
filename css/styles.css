@@ -6,7 +6,7 @@
     --additional-color: #757575;
 }
 body {
-    font-family: 'Roboto', sans-serif, system-ui; 
+    font-family: "Roboto", "Raleway",sans-serif, system-ui; 
     background-color: var(--primere-background-color);
     color: var(--primary-text-color);
     font-style: normal;
