@@ -1,7 +1,9 @@
 :root{
     --primary-text-color: #212121;
     --primere-background-color: #ffffff;
+    --additional-text-color: #ffffff;
     --accent-color: #2196F3;
+    --additional-color: #757575;
 }
 body {
     font-family: 'Roboto', sans-serif, system-ui; 
@@ -11,11 +13,14 @@ body {
    }
 li {
     list-style-type: none;
-      /* Убираем маркеры */
+      /* Прибираємо маркери */
   }
  a
-   {text-decoration: none;}
-
+   {text-decoration: none;
+    /* прибираємо підкреслення */}
+h1 {
+    color: var(--additional-text-color);
+}
 /* Шапка head */
 .logo-link {
     font-family: 'Raleway';
@@ -38,7 +43,7 @@ li {
     color: var(--primary-text-color);
     }
    .address-item a {
-        color: #757575;
+        color: var(--additional-color);
         font-size: 14px;
         letter-spacing: 0.02em;
     }
@@ -65,7 +70,7 @@ li {
     text-align: center;
 }
 .text {
-    color: #757575;
+    color: var(--additional-color);
     font-size: 14px;
     text-align: center;
     letter-spacing: 0.03em;}
@@ -74,7 +79,7 @@ li {
 background-color: #2F303A;
 }
 .box-service-order h1 {
-    color: #FFFFFF;
+    color: var(--additional-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -84,7 +89,7 @@ background-color: #2F303A;
 }
 .btn-service {
     background-color: var(--accent-color) ;
-    color: #FFFFFF;
+    color: var(--additional-text-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -96,7 +101,7 @@ background-color: #2F303A;
   
 /* секція щодо переліку особливостей */
 .box-detail .title {
-    color: #FFFFFF;
+    color: var(--additional-text-color);
 }
 
 /* секція галереї робіт */
@@ -112,19 +117,16 @@ background-color: #2F303A;
 background: #2F303A;
 }
 .my-footer .logo-link{
-    color: #FFFFFF;
+    color: var(--additional-text-color);
 }
  .footer-address{
     font-style:normal
  }
 .address{
-color: #FFFFFF;
+color: var(--additional-text-color);
 font-size: 14px;
 line-height: 1.8;
 letter-spacing: 0.03em;
-}
-.address .address-item{
-
 }
 
 /* портфоліо */
@@ -140,17 +142,18 @@ letter-spacing: 0.03em;
 .portfolio-btn:hover,
 .portfolio-btn:focus{
 background: var(--accent-color);
-color: #FFFFFF;
+color: var(--primere-background-color);
 }
 .portfolio-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--primary-text-color);
 }
 .portfolio-text{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--additional-color);
     
 }
